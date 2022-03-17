@@ -1,0 +1,61 @@
+/* div {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid orangered;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    
+
+}
+p {
+    border: inherit;
+    padding: inherit;
+    background-color: #80808029;
+    margin: 7px;
+ 
+   font-size: 30px;
+} */
+/* .one {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+ 
+}
+.two {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 50px;
+}
+.three {
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 50px;
+} */
+
+.one {
+font-size: 2.5rem;
+text-align: center;
+text-transform: capitalize;
+/* font-size: 50px; */
+}
+.two {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.three {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}

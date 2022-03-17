@@ -1,0 +1,31 @@
+
+.parent-flex1 {
+    margin-left: 3px ;
+   margin-right: 3px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+   
+    
+    
+}
+
+    
+
+.parent-flex1 div {
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+
+
+
+.E {
+    align-self: flex-end;
+    order:-1;
+    
+}
+.F {
+    align-self: flex-end;
+   
+}

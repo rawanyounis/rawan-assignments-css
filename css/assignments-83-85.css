@@ -1,0 +1,151 @@
+
+/* exercice1 */
+/* @media print {
+    .assign-one {
+        font-size: 40px;
+    }
+} */
+/* exercice2 */
+/* * {
+    box-sizing: border-box;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+.parent > div {
+    text-align: center;
+    width:100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color {
+    margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px) {
+    .color {
+        font-weight: bold;
+ 
+    }
+    .parent > div {
+        background-color: #eee;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .color {
+        color: red;
+        font-weight: bold;
+ 
+    }
+    .parent > div {
+        width: calc((100% - 60px)/2);
+        background-color: #eee;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+   .color {
+       color: blue;
+       font-weight: bold;
+
+   }
+   .parent > div {
+       width: calc((100% - 90px)/4);
+       background-color: #eee;
+   }
+} */
+
+/* exercice3 */
+* {
+    box-sizing: border-box;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+}
+.parent > div {
+    text-align: center;
+    width:100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color {
+    margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px) {
+    .color {
+        font-weight: bold;
+ 
+    }
+    .parent > div {
+        background-color: #eee;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .parent > .one {
+        width: 100%;
+        background-color: #eee;
+    }
+    .parent > .two  {
+     width: calc((100% - 60px)/3);
+     background-color: #eee;
+    }
+    .parent > .three {
+     width: calc((100% - 60px)/3);
+     background-color: #eee;  
+    }
+    .parent > .four {
+        width: calc((100% - 60px)/3);
+     background-color: #eee; 
+    }
+    
+     .color {
+        color: red;
+        font-weight: bold;
+ 
+    }
+    
+}
+
+@media (min-width: 1200px) {
+   .parent > .one {
+       width: 100%;
+       background-color: #eee;
+   }
+   .parent > .two {
+    width: calc((100% - 15px)/2);
+    background-color: #eee;
+   }
+   .parent > .three {
+    width: calc((100% - 60px)/2);
+    background-color: #eee;  
+   }
+   .parent > .four {
+    width: 100%;
+    background-color: #eee; 
+   }
+   
+    .color {
+       color: blue;
+       font-weight: bold;
+
+   }
+   
+}

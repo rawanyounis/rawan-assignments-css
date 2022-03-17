@@ -1,0 +1,83 @@
+/* exercice1 */
+/* :root{
+    --margintop: 20px
+}
+.parent {
+    width: 500px;
+    height: 300px;
+    margin: 80px auto;
+    background-color: #80808073;
+    text-align: center;
+    transition: margin-top 0.5s;
+    padding: 10px;
+    
+  
+}
+
+.child {
+    background-color: #80808085;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; */
+    /* margin-top: var(--margintop); */
+    /* margin-top: 20px;
+    transition-property: margin-top ;
+    transition-duration: 0.5s; 
+    transition-delay: 0.5s;
+    
+    
+    
+    
+
+}
+
+ .parent:hover  {
+    
+    margin-top: -5px;  */
+
+ /* --margintop:60px */
+   /* } 
+
+  .parent:hover .child {
+    margin-top: 60px;
+    background-color: gray;
+} */
+/* exrcice2 */
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    background-color: #8080804a !important ;
+    width: 400px;
+    margin: 20px auto;
+    font-size: 0px !important;
+    text-align: center;
+    border: none !important;
+    color: black !important;
+    font-weight: bold;
+    
+}
+div::before {
+    content: "ElZero";
+    font-size:  20px !important ;
+
+} */
+/* exercice3 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  } */
+  
+  div {
+  color: var(--mainColor,red);
+   padding: var(--mainPadding,10px);
+   margin: 10px;
+   border: 2px solid  var(--mainColor,black) ;
+  }
+
+

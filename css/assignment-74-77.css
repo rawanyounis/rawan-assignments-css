@@ -1,0 +1,363 @@
+/* exercice1 */
+/* div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 5px solid rgb(214, 33, 63);
+    border-left-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    animation-duration: 1s;
+    animation-name: bb;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+   
+}
+div:hover{
+    animation-play-state: paused;
+}
+
+@keyframes bb {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+div::before {
+    content: "";
+    width:55px ;
+    height: 55px;
+    position: absolute;
+    top:-12.5px;
+    left: -12.5px;
+    border-radius: 50%;
+    border: 5px solid rgb(18, 94, 145);
+    border-right-color: transparent ;
+}
+div::after {
+    content: "";
+    width:70px ;
+    height: 70px;
+    position: absolute;
+    top:-20px;
+    left: -20px;
+    border-radius: 50%;
+    border: 5px solid rgb(204, 204, 12);
+    border-bottom-color: transparent ;
+} */
+
+
+/* exercice2 */
+
+/* div {
+    position: relative;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: -25px;
+   margin-left: -25px;
+}
+
+.one {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 60px ;
+    height:60px;
+    border: 3px solid green;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    animation-name: bb;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+   
+}
+
+div:hover .one {
+    animation-name: bb;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+
+.two {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 70px ;
+    height:70px;
+    border: 3px solid red;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    animation-name: bb;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+   }
+   div:hover .two {
+    animation-name: bb;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+
+   .three {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 80px ;
+    height:80px;
+    border: 3px solid blue;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    animation-name: bb;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+   }
+   div:hover .three {
+    animation-name: bb;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+
+
+@keyframes bb {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+/* exercice 3 */
+
+/* span {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    background-color: #eee;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-bottom-color: transparent;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+/* exercice4 */
+
+.EL {
+    width: 560px;
+    height: 600px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    z-index: -1;
+}
+
+.EL .E {
+    /* background-color: red; */
+    margin-right: 30px;
+}
+
+.EL .E .r {
+    width: 250px;
+    height: 60px;
+    background-color: gray;
+
+}
+.EL .E .a {
+    height: 450px;
+    width: 60px ;
+    position: absolute;
+    top:75px;
+    left: 15px;
+    background-color: gray;
+
+}
+.EL .E .aa {
+    position: absolute;
+    top:525px;
+    left: 15px;
+    width: 250px;
+    height: 60px;
+    background-color: gray;
+   
+
+}
+.EL .E .w {
+    position: absolute;
+    top:270px;
+    left: 15px;
+    width: 250px;
+    height: 60px;
+    background-color: gray;
+    
+}
+.EL .L .y {
+    width: 60px;
+    height: 570px;
+    background-color: gray;
+}
+.EL .L .o {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 295px;
+    top:525px;
+    background-color: gray;
+    z-index: 1;
+}
+
+
+.move1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    right: 30px;
+    background-color: red;
+    z-index: 2;
+    animation-name: trx;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    
+   
+}
+ .move2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    left: 220px;
+    background-color: red;
+    z-index: 2;
+    animation-name: try;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: both; 
+    
+} 
+
+@keyframes trx {
+    0% {
+        transform:  translate(0px)  ;
+        opacity: 1;
+     }
+     35% {
+        transform: translate(0px) translateX(-190px);
+        opacity: 1;
+     }
+
+      70% {
+        transform: translate(0px) translateX(-190px) translateY(-510px);
+        opacity: 1;
+     }
+
+     
+     100% {
+        transform: translate(0px) translateX(-190px) translateY(-510px);
+        opacity: 0;
+     } 
+}
+
+@keyframes try {
+    0%{
+        transform:  translate(0px)  ;
+        opacity:1;
+    }
+    20% {
+        transform:  translateX(-190px);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(-190px) translateY(255px);
+        opacity: 1;
+     }
+     60% {
+        transform:translateX(-190px) translateY(255px)  translateX(190px);
+        opacity: 1;
+     }
+     65% {
+        transform:translateX(-190px) translateY(255px)  translateX(190px) translateX(-190px);
+        opacity: 1;
+     }
+     70% {
+        transform:translateX(-190px) translateY(255px)  translateX(190px) 
+        translateX(-190px) translateY(255px);
+        opacity: 1;
+     }
+     75% {
+        transform:translateX(-190px) translateY(255px)  translateX(190px) 
+        translateX(-190px) translateY(255px) translateX(190px);
+        opacity: 1;
+     }
+     80% {
+        transform:translateX(-190px) translateY(255px)  translateX(190px) translateX(-190px) 
+        translateY(255px) translateX(190px) translateX(-190px);
+        opacity: 1;
+     }
+     90% {
+        transform:translateX(-190px) translateY(255px)  translateX(190px) translateX(-190px) 
+        translateY(255px) translateX(190px) translateX(-190px) translateY(-510px);
+        opacity: 1;
+     }
+
+     100% {
+        transform:translateX(-190px) translateY(255px)  translateX(190px) translateX(-190px) 
+        translateY(255px) translateX(190px) translateX(-190px) translateY(-510px) translateX(190px);
+        opacity: 1;
+     }
+    }
+
+
+/* ma darure ektbn bl hover
+
+    animation-name: bb;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+
+
+

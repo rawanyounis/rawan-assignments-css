@@ -1,0 +1,128 @@
+
+/* exercice1 */
+ /* div {
+    width: 300px;
+    height: 60px;
+    background-color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    line-height: 60px;
+
+    
+}
+div:empty {
+    background-color: red;
+}  */
+ /* exercice2 */
+ div {
+     background-color: gray;
+     counter-increment: counter;
+     width: 350px;
+     margin:  auto;
+     text-align: center;
+     padding: 20px;
+     /* position: relative; */
+     
+ }
+ /* div::before {
+     content: counter(counter);
+     background-color: red;
+     width: 20px;
+     height: 40px;
+     line-height: 40px;
+     position: absolute;
+     left: -10px;
+     top:50%;
+     margin-top: -20px;}
+      */
+      div::first-letter { 
+          background-color: red;
+          padding: 10px;
+          margin-left: -50px;
+          margin-right: 20px;
+          text-align: center;
+          color: white;
+         }
+         /* div::before {
+            content: counter(counter);
+            background-color: red;
+            width: 20px;
+            height: 40px;
+            line-height: 40px;
+            position: absolute;
+            left: -10px;
+            top:50%;
+            margin-top: -20px;
+
+         } */
+         
+          
+          
+
+     /* exercice3 */
+
+     /* p {
+         width: 400px;
+         background-color: #80808045;
+         padding: 10px;
+         margin: 20px auto;
+         position: relative;
+         
+     }
+      p::before {
+          content: "";
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 3px;
+          height: 100%;
+          background-color: #f725c0ed;
+          }
+      p::after {
+          content: "";
+          position: absolute;
+          left: -20px;
+          top: 50%;
+          margin-top: -10px;
+          border-width: 10px;
+          border-style: solid;
+          border-color: transparent #f725c0ed transparent transparent;
+          } */
+
+          /* exercice4 */
+          /* p {
+            width: 400px;
+            background-color: #80808045;
+            padding: 10px;
+            margin: 10px auto;
+            counter-increment: counter;
+            position: relative;
+          }  
+          p::before 
+          {
+              content: counter(counter);
+              position: absolute;
+              top: 0px;
+              left: -50px;
+              width: 50px;
+              height: 100%;
+              background-color: red;
+              color: white;
+              font-weight: bold;
+              text-align: center;
+          } 
+          p::after {
+            content: "";
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            width: 5px;
+            height: 100%;
+            background-color: red;
+          } */
+
+     
+    
+
+ 

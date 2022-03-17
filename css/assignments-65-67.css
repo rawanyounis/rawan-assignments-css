@@ -1,0 +1,105 @@
+/* exercice1 */
+/* div {
+    width: 300px;
+    height: 200px;
+    margin: 70px auto;
+    position: relative;
+    background-color: white;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    transform: scaleY(1.05) scaleX(1.05) rotate(-5deg) ;
+    z-index: -1;
+}
+div::before {
+    content: "";
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    transform: scaleY(1.05) scaleX(1.05)  rotate(5deg) ;
+    z-index: -2;
+} */
+
+/* exercice2 */
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #eee;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+     top: 50%; 
+    left: 50%;
+    
+    /* margin: 50% 50%;  */
+    transform: translate(-50%,-50%); 
+    transition: 0.5s;
+    color: rgb(0, 140, 255);
+    font-weight: bold;
+   
+   
+     
+}
+
+div::after {
+    content: "";
+    width:200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    border-radius: 50%; 
+    border-bottom: 10px solid red;
+    border-top: 10px solid red;
+    border-right: 10px solid red;
+    border-left: 10px solid white;
+    /* background-color: black; */
+    
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+div::before{
+    content: "";
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    border-radius: 50%;
+    border-bottom: 10px solid rgb(0, 140, 255);
+    border-top: 10px solid rgb(0, 140, 255);
+    border-left: 10px solid rgb(0, 140, 255);
+    border-right: 10px solid white;
+    box-sizing: border-box;
+    transition: 0.5s 0.5s;
+}
+
+div:hover::after{
+    transform: rotate(360deg);
+}
+div:hover::before{
+    transform: rotate(360deg);
+}
+
+

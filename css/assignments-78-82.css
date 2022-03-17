@@ -1,0 +1,65 @@
+
+/* exercice1 */
+/* div.main.red {
+    color: red;
+} */
+
+/* exercice2 */
+
+/* .parent > .child:last-child {
+    color: red;
+} */
+/* or */
+/* div:nth-child(1) div:nth-child(2) {
+    color: red;
+} */
+/* or */
+/* .parent > .child:nth-child(2) {
+    color: red;
+} */
+
+/* exercice3 */
+/* .parent .baby:only-of-type {
+    color: red;
+} */
+/* or */
+/* .parent .baby:only-child {
+    color: red;
+} */
+/* or */
+/* div:nth-child(2) .baby {
+    color: red;
+} */
+
+/* exercice4 */
+/* div[title*="H"],
+div[title="Elzero"]:nth-last-of-type(6)
+ {
+    color: red;
+} */
+
+/* exercice5 */
+/* div:nth-child(2) div[title="Elzero"],
+ .no-need div[title="Elzero"]:not(:nth-last-child(1)){
+    color: red;
+} */
+/* or */
+/* div:nth-child(2) div[title="Elzero"] {
+     color: red;
+ } */
+
+/* exercice 6 */
+/* div:nth-child(1) div:nth-child(3),div:nth-child(2) div:nth-child(4) {
+    color: red;
+} */
+/* exercice 7 */
+/* div:nth-child(1) div:nth-last-child(2) {
+    color: red;
+} */
+/* exercice 8 */
+  /* div:not(:first-of-type):not(:last-child),p:not(:nth-child(6))
+  {
+    color: red;
+} */
+
+

@@ -1,0 +1,82 @@
+/* div {
+    text-transform: capitalize;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 2px 2px 0px orangered,4px 4px 0px #307ce9,6px 6px 0px #de39f3;
+} */
+/* .one {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.two {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.three {
+    text-transform: lowercase;
+    font-weight: bold;
+} */
+
+
+/* .one { 
+    width: 400px;
+    background-color: #8080801a;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.two {
+    width: 400px;
+    background-color: #8080801a;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.three {
+    width: 400px;
+    background-color: #8080801a;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+
+} */
+
+/* a {
+    background-color: aqua;
+    padding: 30px;
+    width: 200px;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+     left: calc(50% - 130px);
+     top: calc(50% - 75.5px);
+     font-size: 80px;
+ } */
+/* .design{
+    background-color: red;
+    height: 10px;
+   width: 260px;
+   position: absolute;
+   top: 50px;
+}  */
+a {
+    background-color: #239d9a;
+    padding: 30px;
+    width: 200px;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+     left: calc(50% - 130px);
+     top: calc(50% - 75.5px);
+     font-size: 80px;
+     color: white;
+     border-bottom: 10px solid #084746;
+     
+}
+
+
+
